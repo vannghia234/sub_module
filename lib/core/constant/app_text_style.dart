@@ -4,13 +4,16 @@ import 'app_colors.dart';
 
 class AppTextStyle {
   static String fontFamily = 'poppins';
+  static String packageName = 'sub_project';
   static TextStyle labelMedium1(
       {Color? color, double? fontSize, FontWeight? fontWeight}) {
     return TextStyle(
-        color: color ?? AppColors.textBlackColor,
-        fontSize: fontSize ?? 16,
-        fontWeight: fontWeight ?? FontWeight.w500,
-        fontFamily: fontFamily);
+      color: color ?? AppColors.textBlackColor,
+      fontSize: fontSize ?? 16,
+      fontWeight: fontWeight ?? FontWeight.w500,
+      fontFamily: fontFamily,
+      package: packageName,
+    );
   }
 
   static TextStyle labelMedium2({
@@ -22,7 +25,8 @@ class AppTextStyle {
         color: color ?? AppColors.textBlackColor,
         fontSize: fontSize ?? 14,
         fontWeight: fontWeight ?? FontWeight.w500,
-        fontFamily: fontFamily);
+        fontFamily: fontFamily,
+        package: packageName);
   }
 
   static TextStyle labelMedium3(
@@ -32,6 +36,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontFamily: fontFamily,
       fontWeight: fontWeight ?? FontWeight.w500,
+      package: packageName,
     );
   }
 
@@ -45,6 +50,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 10,
       fontWeight: fontWeight ?? FontWeight.w500,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -56,6 +62,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 16,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -66,6 +73,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 14,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -76,6 +84,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -86,6 +95,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 10,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -97,6 +107,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 16,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -107,6 +118,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 14,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -117,6 +129,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontWeight: fontWeight ?? FontWeight.w600,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -128,6 +141,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 16,
       fontWeight: fontWeight ?? FontWeight.w400,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -138,6 +152,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 14,
       fontWeight: fontWeight ?? FontWeight.w400,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -148,6 +163,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontWeight: fontWeight ?? FontWeight.w400,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -158,6 +174,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 10,
       fontFamily: fontFamily,
       fontWeight: fontWeight ?? FontWeight.w400,
+      package: packageName,
     );
   }
 
@@ -169,6 +186,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontFamily: fontFamily,
       fontWeight: fontWeight ?? FontWeight.w400,
+      package: packageName,
     );
   }
 
@@ -179,6 +197,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 10,
       fontFamily: fontFamily,
       fontWeight: fontWeight ?? FontWeight.w400,
+      package: packageName,
     );
   }
 
@@ -192,6 +211,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 18,
       fontWeight: fontWeight ?? FontWeight.w700,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -202,6 +222,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 16,
       fontWeight: fontWeight ?? FontWeight.w700,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -212,6 +233,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 14,
       fontWeight: fontWeight ?? FontWeight.w700,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 
@@ -222,6 +244,7 @@ class AppTextStyle {
       fontSize: fontSize ?? 12,
       fontWeight: fontWeight ?? FontWeight.w700,
       fontFamily: fontFamily,
+      package: packageName,
     );
   }
 }
