@@ -6,7 +6,7 @@ flutter build apk --release --flavor production
 
 https://avatar.iran.liara.run/public -> avatar dynamic
 
-git clone --recurse-submodule URL- repo chinh, nó down code từ md chính tới submd
+git clone --recurse-submodule URL-repository chính, nó down code từ module chính tới submodule
 cách 2:
 git submodule init
 git submodule update
