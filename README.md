@@ -22,3 +22,5 @@ sau khi ngkhac update code -> pull nhánh ->
 git submodule update --init --recursive
 
 https://via.placeholder.com/150
+
+-> update 24/12/2024
