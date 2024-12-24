@@ -10,17 +10,12 @@ git clone --recurse-submodule URL- repo chinh, nó down code từ md chính tớ
 cách 2:
 git submodule init
 git submodule update
-or
-git submodule update --init --recursive
 
 Cập Nhật Submodule trong Dự Án Chính
 Nếu submodule có thay đổi (từ bạn hoặc cộng tác viên), bạn cần cập nhật submodule trong dự án chính:
 
-git submodule update --remote
-
-sau khi ngkhac update code -> pull nhánh ->
-git submodule update --init --recursive
+git submodule update --init --remote
 
 https://via.placeholder.com/150
 
--> update 25/12/2024
+-> update 26/12/2024
