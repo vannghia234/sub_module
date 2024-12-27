@@ -7,6 +7,26 @@ abstract class DiMens {
   //icon size
   static double iconSize = 24;
 
+  //for all screens
+  static const double horizontal_padding = 12.0;
+  static const double vertical_padding = 12.0;
+
+  // button Size
+  static const double buttonHeight = 48.0;
+
+  // Common dimensions for components
+  static const double appBarHeight = 56.0;
+  static const double tabBarHeight = 48.0;
+  static const double bottomNavigationBarHeight = 56.0;
+  static const double cardElevation = 4.0;
+  static const double borderRadius = 8.0;
+  static const double dialogElevation = 24.0;
+  static const double chipHeight = 32.0;
+  static const double chipPadding = 8.0;
+  static const double listTileHeight = 56.0;
+  static const double textFieldHeight = 48.0;
+  static const double avatarRadius = 20.0;
+
   //
   static SizedBox boxHeight10 = SizedBox(height: ten);
   static SizedBox boxHeight12 = SizedBox(height: twelve);
