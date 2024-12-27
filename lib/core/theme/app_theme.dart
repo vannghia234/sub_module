@@ -42,6 +42,6 @@ ThemeData appTheme(
     ),
     checkboxTheme: checkboxTheme,
     dropdownMenuTheme: dropdownMenuTheme,
-    dividerTheme: const DividerThemeData(color: AppColors.otherDividerColor),
+    dividerTheme: const DividerThemeData(color: AppColors.dividerColor),
   );
 }

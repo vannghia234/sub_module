@@ -13,6 +13,13 @@ class AppColors {
   static const Color primaryColor = Color(0xFFFF7D0D);
   static const Color scaffoldBackground = Color(0xFFffffff);
 
+  // shadow
+  static BoxShadow shadowColor = BoxShadow(
+    color: Colors.black.withOpacity(0.1),
+    blurRadius: 1,
+    offset: const Offset(0, 0),
+  );
+
   // Semantic Colors
   static const Color semanticAlertColor = Color(0xFFFF1B0A);
   static const Color semanticWarningColor = Color(0xFFFFBE0A);
@@ -32,7 +39,7 @@ class AppColors {
   static const Color backgroundNeutral = Color(0xFFF3F7F7);
 
   // Other Colors
-  static const Color otherDividerColor = Color(0xFFD5D7D7);
+  static const Color dividerColor = Color(0xFFD5D7D7);
   static const Color otherBorderColor = Color(0xFFC0C4C4);
   static const Color buttonShadowColor = Color(0xFFFFD1AA);
   static const Color borderColor = Color(0xFFEEEEEE);
@@ -80,4 +87,5 @@ class AppColors {
 
   // item bgr
   static const Color itemBgr = Color(0xFF808080);
+  static const Color inActiveItemBgrColor = Color(0xFFCECECE);
 }
