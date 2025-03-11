@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   ButtonBase.text(
                     fixedSize: const Size(200, 100),
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.blue,
                     text: "Screen 1",
                     onPressed: () {
                       // context.push('/home2');
