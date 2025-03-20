@@ -5,10 +5,7 @@ import 'package:flutter/material.dart';
 class ButtonBase {
   /// Hàm gốc để tạo ElevatedButton với các thuộc tính mở rộng.
   /// Từ hàm này, chúng ta có thể tạo ra nhiều dạng button khác nhau (text, icon, outlined, v.v.)
-  static Widget
-
-
-  base({
+  static Widget base({
     /// Bắt buộc: widget hiển thị bên trong button
     required Widget child,
 
