@@ -7,6 +7,18 @@ abstract class DiMens {
   //icon size
   static double iconSize = 24;
 
+  // radius button
+  static double buttonRadius48 = 48;
+  static double buttonRadius24 = 24;
+  static double buttonRadius16 = 16;
+  static double buttonRadius12 = 12;
+  static double buttonRadius8 = 8;
+
+  // radius card
+  static double cardRadius16 = 16;
+  static double cardRadius12 = 12;
+  static double cardRadius8 = 8;
+
   //
   static SizedBox boxHeight10 = SizedBox(height: ten);
   static SizedBox boxHeight12 = SizedBox(height: twelve);
